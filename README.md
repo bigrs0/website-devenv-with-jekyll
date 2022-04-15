@@ -2,7 +2,7 @@
 
 Local verification environment for websites with Jekyll.
 
-docker hub: <https://hub.docker.com/repository/docker/bigrd/website-devenv-with-jekyll>
+docker hub: <https://hub.docker.com/r/bigrd/website-devenv-with-jekyll>
 
 ```sh
 # Change host path as needed# Change host path as needed
