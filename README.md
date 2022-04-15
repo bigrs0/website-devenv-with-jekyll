@@ -1,6 +1,6 @@
 # website-devenv-with-jekyll
 
-Local verification environment for websites with Jekyll.
+Local verification environment for **github pages** with Jekyll.
 
 docker hub: <https://hub.docker.com/r/bigrd/website-devenv-with-jekyll>
 
