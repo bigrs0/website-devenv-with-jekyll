@@ -1,0 +1,15 @@
+FROM jekyll/jekyll:3
+
+WORKDIR /home/jekyll
+
+RUN echo "source 'https://rubygems.org'" > Gemfile \
+  && echo "gem 'github-pages', group: :jekyll_plugins" >> Gemfile 
+RUN bundle install
+
+RUN mkdir -p /srv/src/_site && mkdir -p /srv/jekyll/_site
+
+USER jekyll
+EXPOSE 35729
+EXPOSE 4000
+
+ENTRYPOINT [""]
